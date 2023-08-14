@@ -2,6 +2,8 @@
 Repositorio del equipo 6 para la materia de Inteligencia Artificial avanzada para la ciencia de datos I y II
 
 ## Parte uno: Limpieza de datos
+### Los archivos se pueden encontrar en ./Limpieza_de_datos junto a su respectivo Jupyter notebook
+
 Antes de limpiar los datos, debemos observar cómo están estructurados en el data frame correspondiente. En este caso, el CSV contiene las columnas PassengerId, Survived, Pclass, Name, Sex, Age, SibSp, Parch, Ticket, Fare, Cabin y Embarked. Estas columnas contienen diferentes tipos de datos, y se podría decir que esta información está en bruto. Para poder trabajar en el reto, es necesario someter a este data frame a un proceso de limpieza de datos.
 
 Comenzamos importando el CSV a una libreta en Python (Jupyter Notebook) y solicitamos al programa que lo convirtiera a un data frame. Una vez hecho esto, pedimos una descripción detallada del data frame. Tras observar los datos, decidimos tratar dos columnas que, a nuestro criterio, es importante convertir a un tipo de dato que facilite su posterior análisis: las columnas Sex y Embarked.
