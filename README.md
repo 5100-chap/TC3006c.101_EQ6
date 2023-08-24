@@ -19,3 +19,5 @@ Luego, contamos la cantidad de datos no nulos en cada columna. Solo las columnas
 Notamos que en la columna Name, la mayoría de los nombres tenían un título al inicio, como Master, Mr, Miss o Mrs. Basándonos en esto, determinamos los rangos de edad que podría tener cada persona según su título. Calculamos la media de edad por título y asignamos estas medias a los valores vacíos correspondientes. Algunos nombres no tenían estos títulos o tenían otros como Dr., por lo que aplicamos el mismo proceso para estos casos. De esta manera, ningún valor de Age quedó vacío.
 
 Finalmente, utilizando Seaborn y Matplotlib, determinamos si había algún valor atípico en el data frame. Según nuestras gráficas y análisis, concluimos que no había valores realmente atípicos que requirieran ser reemplazados o modificados. Así, concluimos la limpieza de datos.
+
+## Parte dos: Selección, configuración y entrenamiento del modelo
