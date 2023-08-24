@@ -21,3 +21,4 @@ Notamos que en la columna Name, la mayoría de los nombres tenían un título al
 Finalmente, utilizando Seaborn y Matplotlib, determinamos si había algún valor atípico en el data frame. Según nuestras gráficas y análisis, concluimos que no había valores realmente atípicos que requirieran ser reemplazados o modificados. Así, concluimos la limpieza de datos.
 
 ## Parte dos: Selección, configuración y entrenamiento del modelo
+### Los archivos se pueden encontrar en ./Desarrollo_de_modelo 
