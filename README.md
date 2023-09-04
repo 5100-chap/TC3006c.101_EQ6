@@ -6,3 +6,6 @@ Repositorio del equipo 6 para la materia de Inteligencia Artificial avanzada par
 
 ## Parte dos: Selección, configuración y entrenamiento del modelo
 ### Los archivos se pueden encontrar en ./Desarrollo_de_modelo 
+
+## Parte tres: Reto Evaluación y Refinamiento de modelo
+### Los archivos se pueden encontrar en ./Desarrollo_de_modelo 
