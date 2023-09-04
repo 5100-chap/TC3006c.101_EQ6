@@ -33,3 +33,21 @@ Para validar nuestro enfoque, evaluamos y realizamos predicciones en el conjunto
 
 Decidimos utilizar varios modelos que, según nuestro criterio, pueden resolver de manera óptima el reto del Titanic. El objetivo es analizar el comportamiento de cada uno y determinar cuál es el más adecuado para satisfacer las necesidades del desafío.
 
+## Parte tres: Reto Evaluación y Refinamiento de modelo
+
+Evaluación y Refinamiento del modelo
+
+Hemos dividido nuestros datos en conjuntos de entrenamiento y prueba para evaluar y mejorar nuestro modelo, utilizando una proporción de 0.1 para el conjunto de prueba y el resto para el entrenamiento. Luego de experimentar con diversas proporciones de esta división, hemos determinado que esta configuración nos proporciona los mejores resultados.
+
+Para evaluar nuestros modelos, hemos optado por utilizar la métrica F1-score. Esta elección se debe a la presencia de cierto desequilibrio entre las clases, lo que hace que el F1-score sea la métrica más adecuada para la evaluación de nuestro modelo.
+
+Después de llevar a cabo una serie de análisis utilizando múltiples modelos de aprendizaje automático en nuestro conjunto de datos, hemos obtenido resultados prometedores en términos de precisión, con valores superiores al 80%. Sin embargo, es importante destacar que algunos modelos han demostrado un rendimiento superior a otros.
+
+En este contexto, hemos decidido seleccionar el modelo XGBoost (XGB) de entre todos los modelos evaluados. Este modelo en particular ha destacado al lograr una precisión del 85.55%, superando a otros modelos como el árbol de decisiones (decision tree) y el bosque aleatorio (random forest). Cabe mencionar que este alto nivel de precisión nos brinda confianza en su capacidad para realizar predicciones precisas en datos del mundo real.
+
+Además, tenemos la intención de optimizar aún más el rendimiento del modelo XGBoost con el objetivo de mejorar su eficiencia y su capacidad predictiva, sin incurrir en problemas de sobreajuste (overfitting) ni subajuste (underfitting). Esta optimización nos permitirá aprovechar al máximo el potencial de este modelo en futuras aplicaciones y escenarios.
+
+Para optimizar los hiper parámetros, hemos empleado un algoritmo de optimización bayesiana llamado Optuna. Le proporcionamos un rango de valores para los hiper parámetros y realizamos 100 iteraciones, ajustando además las proporciones en la división de datos y eliminando variables que no contribuyeron significativamente al modelo, basándonos en la importancia de características (feature importance).
+
+Es evidente que hemos logrado una mejora en el F1-score, que era nuestro objetivo principal. Esto indica que este es el mejor modelo que hemos obtenido hasta la fecha. Es posible que valga la pena aplicar un enfoque similar a los demás modelos para explorar la posibilidad de mejorarlos aún más.
+
