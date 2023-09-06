@@ -2,17 +2,25 @@
 import './App.css';
 import React from 'react';
 import { Helmet } from 'react-helmet-async';
-// @mui
 import { styled } from '@mui/material/styles';
-import { Link, Container, Typography, Divider, Stack, Button, Grid, TextField, Checkbox, Toolbar, AppBar } from '@mui/material';
-import { blue } from '@mui/material/colors';
+import { Link, Container, Typography, Button, Grid, TextField, Checkbox, Toolbar, AppBar, Select, MenuItem, InputLabel, FormControl} from '@mui/material';
+import Popup from 'reactjs-popup';
+import 'reactjs-popup/dist/index.css';
 
+export default function SelectSmall() {
+  const [Sex, setSex] = React.useState('');
 
-function App() {
+  const handleChange = (event) => {
+    setSex(event.target.value);
+  };
+
+  const primary = {
+    main: '#5E1303'
+  };
   
   return (
     <div className="App">
-      <AppBar position="static" color="primary" elevation={1}>
+      <AppBar position="static"  elevation={1} style={{ background: '#5E1303' }}>
       <Toolbar noWrap>
           <Typography variant="h5" color="inherit" noWrap>
             TITANIC
@@ -49,14 +57,25 @@ function App() {
           />
         </Grid>
         <Grid item xs={12} sm={6}>
-          <TextField
+          <FormControl fullWidth>
+          <InputLabel id="demo-simple-select-helper-label">Sex</InputLabel>
+          <Select
             required
-            id="Sex"
-            name="Sex"
+            labelId="demo-simple-select-helper-label"
+            id="demo-simple-select-helper"
+            value={Sex}
             label="Sex"
+            onChange={handleChange}
             fullWidth
-          />
+          >
+            <MenuItem value = {" "}> </MenuItem>
+            <MenuItem value = {"female"}>Mujer</MenuItem>
+            <MenuItem value = {"male"}>Hombre</MenuItem>
+
+          </Select>
+          </FormControl>
         </Grid>
+
         <Grid item xs={12} sm={6}>
           <TextField
             required
@@ -92,7 +111,6 @@ function App() {
         </Grid>
         <Grid item xs={12} sm={6}>
           <TextField
-            required
             id="Cabin"
             name="Cabin"
             label="Cabin"
@@ -109,19 +127,33 @@ function App() {
           />
         </Grid>
         <Grid item xs={12} sm={3}>
-          <Button
+          <Popup trigger={<Button
             type="submit"
             fullWidth
             variant="contained"
-            color="primary"
+            style={{ background: '#5E1303'}}
           >Predecir
-          </Button>
+          </Button>}  position="right center">
+            <div>
+              <Grid>
+              <Typography variant="h5">Datos del pasajero</Typography>
+              <div >Name </div>
+              <div>Sex</div>
+              <div>Age</div>
+              <div>ID</div>
+              <div>class</div>
+              <div>Ticket</div>
+              <div>Fare</div>
+              <div>Cabin</div>
+              <div>Embarked</div>
+              <Typography variant="h5">Prediccion</Typography>
+              </Grid>
+            </div>
+          </Popup>
         </Grid>
       </Grid>
     </div>
     
   );
   
-}
-
-export default App;
+  }
