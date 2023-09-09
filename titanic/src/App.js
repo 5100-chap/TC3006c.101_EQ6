@@ -136,17 +136,8 @@ export default function SelectSmall() {
           </Button>}  position="right center">
             <div>
               <Grid>
-              <Typography variant="h5">Datos del pasajero</Typography>
-              <div >Name </div>
-              <div>Sex</div>
-              <div>Age</div>
-              <div>ID</div>
-              <div>class</div>
-              <div>Ticket</div>
-              <div>Fare</div>
-              <div>Cabin</div>
-              <div>Embarked</div>
               <Typography variant="h5">Prediccion</Typography>
+              <div>probabilidad de sobrevivir)</div>
               </Grid>
             </div>
           </Popup>
