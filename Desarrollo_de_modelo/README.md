@@ -1,7 +1,7 @@
 # TC3006c.101_EQ6
 Repositorio del equipo 6 para la materia de Inteligencia Artificial avanzada para la ciencia de datos I y II
 
-## Parte dos: Selección, configuración y entrenamiento del modelo
+## Parte 2: Selección, configuración y entrenamiento del modelo
 
 ### Árbol de Decisiones
 
@@ -33,7 +33,7 @@ Para validar nuestro enfoque, evaluamos y realizamos predicciones en el conjunto
 
 Decidimos utilizar varios modelos que, según nuestro criterio, pueden resolver de manera óptima el reto del Titanic. El objetivo es analizar el comportamiento de cada uno y determinar cuál es el más adecuado para satisfacer las necesidades del desafío.
 
-## Parte tres: Reto Evaluación y Refinamiento de modelo
+## Parte 3: Reto Evaluación y Refinamiento de modelo
 
 Evaluación y Refinamiento del modelo
 
