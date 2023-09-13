@@ -42,6 +42,8 @@ La carpeta princial  de este repositorio contiene los siguientes archivos y carp
 
 - Files
    - README.md: Este archivo actual que contiene introduccion, informacion del dataset y Estrucutra del Repositorio.
+   - El reporte final se encuentra dentro del repositorio en la carpeta raiz, el cual es llamado Entregable_RetoFinal_IA_Avanzada.pdf, el cual explica todo lo relacionado a este reto y explica sus diferentes etapas
 - Folders
    - Limpieza_de_datos: Folder con la inicial limpieza de datos del dataset del Titanic con los cambios requeridos para el modelo(la modificacion y nueva limpieza de datos se encuentra en el folder de desarrollo de modelo junto a los modelos)
    - Desarrollo_de_modelo: Folder con la implementacion de modelos de machine learning con limpieza de datos tras feedback que incluye los cambios solicitados anteriormente en la evaluacion y tambien contiene la tercera parte del reto conocida como evaluacion y refinamiento del modelo.
+   - Interfaz: Folder en donde se incluye el codigo fuente que se uso de base para poder realizar la interfaz de usuario - solucion del reto, para correrlo de manera local se requiere Python y NodeJS, para frontend se puede usar npm start bajo la terminal de NodeJS  y para el backend se corre el archivo Python API.py que esta ubicado dentro de un subfolder llamado src, este archivo se puede correr ya sea en IDE o en consola
