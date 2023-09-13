@@ -45,5 +45,3 @@ La carpeta princial  de este repositorio contiene los siguientes archivos y carp
 - Folders
    - Limpieza_de_datos: Folder con la inicial limpieza de datos del dataset del Titanic con los cambios requeridos para el modelo(la modificacion y nueva limpieza de datos se encuentra en el folder de desarrollo de modelo junto a los modelos)
    - Desarrollo_de_modelo: Folder con la implementacion de modelos de machine learning con limpieza de datos tras feedback que incluye los cambios solicitados anteriormente en la evaluacion y tambien contiene la tercera parte del reto conocida como evaluacion y refinamiento del modelo.
-   - Interfaz: Folder con la implementacion de la interfaz tras haber seleccionado, definido y refinar el modelo que esta ubicado en el folder anterior.
-
