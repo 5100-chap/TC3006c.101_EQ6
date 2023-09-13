@@ -49,6 +49,9 @@ La actual carpeta llamada Limpieza_de_datos contiene los siguientes archivos:
 - Reporte: El archivo pdf llamado Entregable Reto Final es el reporte donde esta documentado todo el proceso del proyecto desde la limpieza hasta modelo y refinamiento con explicaciones, conclusiones y detalles sobre todo el proceso del proyecto para mayor entendimiento del mismo.
 
 ## Cambios Implementados
+Los cambios implementados esta mayormente presentes en la parte 2 y 3 del reto que seria la seleccion del modelo XGB y su refinamiento, estos son los cambios implementados:
+- En el archivo random_forest.ipynb se modificaron los hiperparametros y grafico las metricas de desempeño comparando las diferencias de ambas pruebas, esto esta documentado en el reporte final.
+- En el archivo XGB.ipynb se cambio la limpieza de datos para el desbalance de las clases y datos, division de variables dummies, mejor reemplazo de valores nulos entre otras cosas que estan en el mismo archivo y reporte final para mayor detalle, tambien se cambio todo el formato o explicacion del codigo(Se encuentra en la seccion de Metodologia del Reporte) y se hicieron mejores pruebas con optuna demostrando las diferencias entre el modelo con los primeros hiperparametros y  posteriormente el modelo con los hiperparametros optimos obtenidos por optuna(Se encuentre en la seccion 5.3 que es el modelo XGB y Seccion 6 que contiene todo el cambio y reporte del refinamiento del modelo XGB final).
 
 
 
