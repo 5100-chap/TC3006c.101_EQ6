@@ -48,4 +48,7 @@ La actual carpeta llamada Limpieza_de_datos contiene los siguientes archivos:
 - Base de datos: los archivos submission.csv, test.csv y train.csv son los archivos que contienen los datos del titanic y que se usaron para la limpieza e implementacion del modelo.
 - Reporte: El archivo pdf llamado Entregable Reto Final es el reporte donde esta documentado todo el proceso del proyecto desde la limpieza hasta modelo y refinamiento con explicaciones, conclusiones y detalles sobre todo el proceso del proyecto para mayor entendimiento del mismo.
 
+## Cambios Implementados
+
+
 
